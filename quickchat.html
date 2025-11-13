@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>💬 Chatify | Mini Project</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+  <div class="chatify-container">
+    <aside class="sidebar">
+      <header>
+        <nav>
+          <div class="left">
+            <img src="./assets/Logo.png" width="30" height="30" alt="">
+            <h1>Chatify</h1>
+          </div>
+          <div class="right">
+            <a href="#"><img src="./assets/camera-01.svg" width="20" height="20" alt=""></a>
+            <a href="#"><img src="./assets/Ellipsis V Icon.png" width="20" height="20" alt=""></a>
+          </div>
+        </nav>
+
+        <div class="container">
+          <div class="search-container">
+            <input type="text" class="form-control search-input" placeholder="Search...">
+            <i class="fas fa-search search-icon"></i>
+          </div>
+        </div>
+
+        <div class="buttons">
+          <div class="buttons">
+            <a href="index.html"><button>Chats</button></a>
+            <a href="favorite.html"><button>Favs</button></a>
+            <a href="quickchat.html"><button>Q-Chats</button></a>
+            <a href="all.html"><button>All</button></a>
+          </div>
+        </div>
+      </header>
+
+      <section class="contacts">
+        <h3>Quick-Chats</h3>
+        <hr>
+        <a href="#ashika" class="contact"><img src="./assets/1.jpg" width="30" height="30" alt=""> Ashika</a>
+        <a href="#diya" class="contact"><img src="./assets/2.jpg" width="30" height="30" alt=""> Diya</a>
+        <a href="#meera" class="contact"><img src="./assets/3.jpeg" width="30" height="30" alt=""> Meera</a>
+        <!-- ... -->
+      </section>
+    </aside>
+
+    <main class="chat-window">
+      <div class="no-chat" id="no-chat">
+        <img src="./assets/chat.png" alt="Chat Logo" width="120">
+        <p>Select a chat to start messaging</p>
+      </div>
+
+      <!-- add chat sections here as needed (copy from index.html) -->
+    </main>
+  </div>
+</body>
+</html>
